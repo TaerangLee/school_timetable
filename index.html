@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오늘 시간표는 뭐지?</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="centerBox">
+        <div class="widthCenter">
+
+            <div class="title">
+              <h class="titleFont">오늘 시간표</h>
+            </div>
+      
+            <div class="inputDiv">
+              <div>
+                  <input type="number" class="date inputStyle" placeholder="날짜를 입력하세요 (YYYY/MM/DD)" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = '날짜를 입력하세요 (YYYY/MM/DD)'">
+              </div>
+               <div>
+                  <input type="number" class="grade inputStyle"placeholder="학년을 입력하세요 (n)"onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = '학년을 입력하세요 (n)'">
+              </div>
+               <div>
+                  <input type="number" class="class inputStyle" placeholder="반을 입력하세요 (n)"onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = '반을 입력하세요 (n)'">
+              </div>
+               <div>
+                  <input type="number" class="semester inputStyle"placeholder="학기를 입력하세요 (n)"onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = '학기를 입력하세요 (n)'">
+              </div>
+              <button class="submitInformation">검색하기</button>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

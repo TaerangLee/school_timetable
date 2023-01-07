@@ -1,0 +1,84 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  /* background-color: #d3abeb; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+}
+html{
+    background-image: url(./school2.png);
+}
+
+@font-face {
+  font-family: "establishRoomNo703OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRoomNo703OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+
+.centerBox {
+  
+  height: 930px;
+  width: 600px;
+  background-color: #eec7f1;
+  margin-top: 20px;
+  border-radius: 3%;
+  opacity: 100%;
+}
+
+.title {
+  height: min-content;
+  margin-top: 30px;
+}
+
+.titleFont {
+  font-family: "establishRoomNo703OTF";
+  font-size: 50px;
+  height: auto;
+}
+
+.widthCenter{
+    width: 600px;
+    display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputStyle{
+    width: 500px;
+    height: 40px;
+    margin:10px 0 10px 0;
+    border: 0.5px solid blue;
+    border-radius: 10px;
+    text-indent: 10px;
+    
+   
+}
+
+.inputDiv{
+    margin-top:50px;
+}
+
+.submitInformation{
+    font-family:'bitbit';
+    width: 500px;
+    height: 40px;
+    margin-top:30px;
+    font-size: 18px;
+    transition: 0.2s all linear;
+    background-color: ;
+}
+.submitInformation:hover{
+    transform: scale(1.02);
+}
