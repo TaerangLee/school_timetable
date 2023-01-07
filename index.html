@@ -10,32 +10,62 @@
   </head>
   <body>
     <div class="centerBox">
-        <div class="widthCenter">
-
-            <div class="title">
-              <h class="titleFont">오늘 시간표</h>
-            </div>
-      
-            <div class="inputDiv">
-              <div>
-                  <input type="number" class="date inputStyle" placeholder="날짜를 입력하세요 (YYYY/MM/DD)" onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = '날짜를 입력하세요 (YYYY/MM/DD)'">
-              </div>
-               <div>
-                  <input type="number" class="grade inputStyle"placeholder="학년을 입력하세요 (n)"onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = '학년을 입력하세요 (n)'">
-              </div>
-               <div>
-                  <input type="number" class="class inputStyle" placeholder="반을 입력하세요 (n)"onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = '반을 입력하세요 (n)'">
-              </div>
-               <div>
-                  <input type="number" class="semester inputStyle"placeholder="학기를 입력하세요 (n)"onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = '학기를 입력하세요 (n)'">
-              </div>
-              <button class="submitInformation">검색하기</button>
+      <div class="widthCenter">
+        <div class="title">
+          <h class="titleFont">오늘 시간표</h>
         </div>
-        
+
+        <div class="inputDiv">
+          <div>
+            <input
+              type="number"
+              class="date inputStyle"
+              placeholder="날짜를 입력하세요 (YYYY/MM/DD)"
+              onfocus="this.placeholder = ''"
+              onblur="this.placeholder = '날짜를 입력하세요 (YYYY/MM/DD)'"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              class="grade inputStyle"
+              placeholder="학년을 입력하세요 (n)"
+              onfocus="this.placeholder = ''"
+              onblur="this.placeholder = '학년을 입력하세요 (n)'"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              class="class inputStyle"
+              placeholder="반을 입력하세요 (n)"
+              onfocus="this.placeholder = ''"
+              onblur="this.placeholder = '반을 입력하세요 (n)'"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              class="semester inputStyle"
+              placeholder="학기를 입력하세요 (n)"
+              onfocus="this.placeholder = ''"
+              onblur="this.placeholder = '학기를 입력하세요 (n)'"
+            />
+          </div>
+          <button class="submitInformation">검색하기</button>
+        </div>
+
+        <div class="resultClass">
+          <div>
+            <li class="classF">1교시 :</li>
+            <li class="classF">2교시 :</li>
+            <li class="classF">3교시 :</li>
+            <li class="classF">4교시 :</li>
+            <li class="classF">5교시 :</li>
+            <li class="classF">6교시 :</li>
+            <li class="classF">7교시 :</li>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -3,14 +3,14 @@ html {
   padding: 0;
   margin: 0;
   /* background-color: #d3abeb; */
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size:cover;
+  background-size: cover;
 }
-html{
-    background-image: url(./school2.png);
+html {
+  background-image: url(./school2.png);
 }
 
 @font-face {
@@ -21,16 +21,23 @@ html{
   font-style: normal;
 }
 
-@font-face{
-  font-family:'bitbit';
-  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff"),
+    url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2");
 }
 
+@font-face {
+  font-family: "SLEIGothicTTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .centerBox {
-  
   height: 930px;
   width: 600px;
-  background-color: #eec7f1;
+  background-color: #f8dffa;
   margin-top: 20px;
   border-radius: 3%;
   opacity: 100%;
@@ -38,7 +45,8 @@ html{
 
 .title {
   height: min-content;
-  margin-top: 30px;
+  position: relative;
+  top: 40px;
 }
 
 .titleFont {
@@ -47,38 +55,53 @@ html{
   height: auto;
 }
 
-.widthCenter{
-    width: 600px;
-    display: flex;
+.widthCenter {
+  width: 600px;
+  display: flex;
 
   flex-direction: column;
   align-items: center;
 }
 
-.inputStyle{
-    width: 500px;
-    height: 40px;
-    margin:10px 0 10px 0;
-    border: 0.5px solid blue;
-    border-radius: 10px;
-    text-indent: 10px;
-    
-   
+.inputStyle {
+  width: 500px;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  border: 0.5px solid blue;
+  border-radius: 10px;
+  text-indent: 10px;
 }
 
-.inputDiv{
-    margin-top:50px;
+.inputDiv {
+  margin-top: 80px;
 }
 
-.submitInformation{
-    font-family:'bitbit';
-    width: 500px;
-    height: 40px;
-    margin-top:30px;
-    font-size: 18px;
-    transition: 0.2s all linear;
-    background-color: ;
+.submitInformation {
+  font-family: "bitbit";
+  width: 500px;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 18px;
+  transition: 0.2s all linear;
+  background-color: red;
+  opacity: 80%;
+  border-radius: 5px;
 }
-.submitInformation:hover{
-    transform: scale(1.02);
+.submitInformation:hover {
+  transform: scale(1.02);
+  color: white;
+}
+
+.resultClass {
+  height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.classF {
+  margin-top: 10px;
+  font-family: "SLEIGothicTTF";
 }
