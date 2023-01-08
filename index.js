@@ -21,17 +21,18 @@ const SET = () => {
           const inner = document.getElementById(`${i}`);
         try {
           inner.innerText = `${i + 1}교시 ${
-            json.hisTimetable[1].row[i].ITRT_CNTNT
+            json.hisTimetable[1].row[i].ITRT_CNTNT //row는 총 7일
           }`;
         } catch {
-          inner.innerText = `${i + 1}교시 수업없음`;
+            inner.innerText = `${i + 1}교시 수업없음`;
+            //오류 상황시 catch실행
         }
       }
     })
 };
 
 const handleChange = (event) => {
-  if (event.target == grade) {
+  if (event.target == grade) { //반환을 한 것이 grade이면 실행.
     GRADE = event.target.value;
   }
   if (event.target == date) {
