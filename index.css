@@ -69,14 +69,17 @@ html {
   margin: 10px 0 10px 0;
   border: 0.5px solid blue;
   border-radius: 10px;
+  font-size: 25px;
   text-indent: 10px;
+   font-family: "bitbit";
+  
 }
 
 .inputDiv {
   margin-top: 80px;
 }
 
-.submitInformation {
+.bt {
   font-family: "bitbit";
   width: 500px;
   height: 40px;
@@ -87,7 +90,7 @@ html {
   opacity: 80%;
   border-radius: 5px;
 }
-.submitInformation:hover {
+.bt:hover {
   transform: scale(1.02);
   color: white;
 }
