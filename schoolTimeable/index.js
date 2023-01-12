@@ -44,7 +44,7 @@ const handleChange = (event) => {
   if (event.target == semester) {
     SEM = event.target.value;
     }
-   
+    
 };
 
 search.addEventListener("click", SET);
